@@ -1,0 +1,56 @@
+/* flexbox horizontal && flexbox vertical */
+.FBH, .FBV {
+  display: flex;
+}
+
+/* flexbox vertical */
+.FBV {
+  flex-direction: column;
+}
+
+/* cross axis's align start */
+.FBAS {
+  align-items: flex-start;
+}
+
+/* cross axis's align center */
+.FBAC {
+  align-items: center;
+}
+
+/* cross axis's align end */
+.FBAE {
+  align-items: flex-end;
+}
+
+/* main axis's justify start */
+.FBJS {
+  justify-content: flex-start;
+}
+
+/* main axis's justify center */
+.FBJC {
+  justify-content: center;
+}
+
+/* main axis's justify end */
+.FBJE {
+  justify-content: flex-end;
+}
+
+/* main axis's justify */
+.FBJ {
+  justify-content: space-between;
+}
+
+.FB1 {
+  flex: 1;
+}
+
+.FB2 {
+  flex: 2;
+}
+
+.FB3 {
+  flex: 3;
+}

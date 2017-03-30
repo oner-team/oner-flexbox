@@ -1,0 +1,27 @@
+{
+  "name": "oner-flexbox",
+  "version": "1.0.0",
+  "description": "oner-flexbox 是一个flex布局的小样式库",
+  "main": "flexbox.css",
+  "files": [
+    "flexbox.css",
+     "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oner-team/oner-flexbox.git"
+  },
+  "keywords": [
+    "flexbox",
+    "layout"
+  ],
+  "author": "gnosaij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oner-team/oner-flexbox/issues"
+  },
+  "homepage": "https://github.com/oner-team/oner-flexbox#readme"
+}

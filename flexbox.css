@@ -46,11 +46,30 @@
 .FB1 {
   flex: 1;
 }
-
 .FB2 {
   flex: 2;
 }
-
 .FB3 {
   flex: 3;
+}
+.FB4 {
+  flex: 4;
+}
+.FB5 {
+  flex: 5;
+}
+.FB6 {
+  flex: 6;
+}
+.FB7 {
+  flex: 7;
+}
+.FB8 {
+  flex: 8;
+}
+.FB9 {
+  flex: 9;
+}
+.FB10 {
+  flex: 10;
 }

@@ -1,19 +1,16 @@
 # oner-flexbox
 oner-flexbox 是一个flex布局的小样式库
 
-## 基础概念
-
-### align-items
-![img](http://cdn.dtwave.com/tps/flexbox-cross.png)
-
-### justify-content
-![img](http://cdn.dtwave.com/tps/flexbox-main.png)
-
-## API
+## 设计理念概念
 遵循**首尾字母缩写**原则
 
-[戳这里=>调试Demo](http://jsbin.com/xepanokefe/7/edit?html,output)
+<img src="http://cdn.dtwave.com/tps/justfiy-content.png" width = "300"  align=center />
 
+<img src="http://cdn.dtwave.com/tps/align-items.png" width = "300"  align=center />
+
+[戳这里=>调试Demo](http://jsbin.com/rusolew/edit?html,output)
+
+## API
 
 ### FBH
 指定**水平方向**为容器的主轴
@@ -24,14 +21,18 @@ oner-flexbox 是一个flex布局的小样式库
 ### FBAS
 `align-items: flex-start`
 
-
-
 ### FBAC
 `align-items: center`
 
-
 ### FBAE
 `align-items: flex-end`
+
+### FBAST
+`align-items: stretch`
+
+### FBAB
+`align-items: baseline`
+
 
 ### FBJS
 
@@ -48,10 +49,32 @@ oner-flexbox 是一个flex布局的小样式库
 `justify-content: flex-end`
 伸缩项目向一行的**结束位置靠齐**
 
-### FBJ
+### FBJB
 
 `justify-content: space-between`
 伸缩项目会**平均地分布**在行里
+
+### FBJA
+`justify-content: space-around`
+
+### FBAB
+`align-content: space-between`
+
+### FBAA
+`align-content: space-around`
+
+### align-content的其他相关值
+在`align-items`的基础上加<mark>&nbsp; **-M** &nbsp;</mark>(Multiline)
+> eg:
+> #### FBAS-M
+> `align-content: flex-start`
+
+
+### align-self的相关值
+在`align-items`的基础上加<mark>&nbsp; **-S** &nbsp;</mark>(Self)
+> #### FBAS-S
+> `align-self: flex-start	`
+
 
 ### FB1
 
@@ -61,7 +84,9 @@ oner-flexbox 是一个flex布局的小样式库
 
 `flex: 2`
 
-### FB3
+…………
+…………
+…………
+### FB10
 
-`flex: 3`
-
+`flex: 10`
